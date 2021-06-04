@@ -43,7 +43,7 @@ function Header() {
                                 </li>
 
                                 <li className="nav-item">
-                                    <a href="pricing.html" className="nav-link">Trending</a>
+                                    <Link to="/" className="nav-link">Trending</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link to="/nyango/contact" className="nav-link">Contact</Link>
@@ -51,7 +51,7 @@ function Header() {
                             </ul>
 
                             <div className="others-options">
-                                <Link to="nyango/login" className="login-btn"><i className="flaticon-user"></i> Connexion</Link>
+                                <Link to="/login" className="login-btn"><i className="flaticon-user"></i> Connexion</Link>
                             </div>
                         </div>
                     </nav>

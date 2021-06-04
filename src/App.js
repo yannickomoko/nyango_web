@@ -32,12 +32,12 @@ function App() {
       <Router>
         <React.Suspense fallback={<Loader />}>
         <Switch>
-         <Route path="/" exact component={Login}/>
+         <Route path="/login" exact component={Login}/>
          <Route path="/register" exact component={Register}/>
             <Route component={()=>
             <>
               <Header />
-              <Route path="/nyango" exact component={Home}/>
+              <Route path="/" exact component={Home}/>
               <Route path="/nyango/contact" exact component={Contact}/>
               <Route path="/nyango/about" exact component={About}/>
               <Route path="/nyango/movies" exact component={Movies}/>
